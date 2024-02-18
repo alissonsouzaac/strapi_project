@@ -1,0 +1,33 @@
+{
+  "kind": "singleType",
+  "collectionName": "footers",
+  "info": {
+    "singularName": "footer",
+    "pluralName": "footers",
+    "displayName": "footer"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "logo": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "copy": {
+      "type": "string",
+      "required": false
+    },
+    "socialIcons": {
+      "displayName": "socialIcons",
+      "type": "component",
+      "repeatable": true,
+      "component": "page.social-icons"
+    }
+  }
+}

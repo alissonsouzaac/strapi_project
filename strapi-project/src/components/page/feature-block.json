@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_page_feature_blocks",
+  "info": {
+    "displayName": "featureBlock",
+    "icon": "manyToOne"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "feature": {
+      "displayName": "feature",
+      "type": "component",
+      "repeatable": true,
+      "component": "page.feature"
+    }
+  }
+}

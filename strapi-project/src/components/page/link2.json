@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_page_link2s",
+  "info": {
+    "displayName": "link2",
+    "icon": "apps"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "url": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

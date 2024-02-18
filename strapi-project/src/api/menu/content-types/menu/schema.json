@@ -1,0 +1,29 @@
+{
+  "kind": "singleType",
+  "collectionName": "menus",
+  "info": {
+    "singularName": "menu",
+    "pluralName": "menus",
+    "displayName": "Menu"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "logo": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": true
+    },
+    "link2": {
+      "displayName": "link2",
+      "type": "component",
+      "repeatable": true,
+      "component": "page.link2"
+    }
+  }
+}

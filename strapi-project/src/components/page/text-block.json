@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_page_text_blocks",
+  "info": {
+    "displayName": "textBlock",
+    "icon": "chartBubble",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "string"
+    }
+  }
+}
